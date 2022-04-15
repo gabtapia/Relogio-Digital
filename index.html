@@ -55,9 +55,9 @@
             m = (m < 10) ? '0' + m : m;
             s = (s < 10) ? '0' + s : s;
 
-            hours.innerHTML = h;
-            minutes.innerHTML = m;
-            seconds.innerHTML = s;
+            hours.innerHTML = h + "<br><span>Horas</span>";
+            minutes.innerHTML = m + "<br><span>Minutos</span>";
+            seconds.innerHTML = s + "<br><span>Segundos</span>";
 
             hh.style.strokeDashoffset = 440 - (440 * h) / 24;
             mm.style.strokeDashoffset = 440 - (440 * m) / 60;
