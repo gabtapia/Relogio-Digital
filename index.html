@@ -59,11 +59,11 @@
             minutes.innerHTML = m;
             seconds.innerHTML = s;
 
-            hh.style.strokeDashoffset = 440 - (440 * h) / 15;
+            hh.style.strokeDashoffset = 440 - (440 * h) / 24;
             mm.style.strokeDashoffset = 440 - (440 * m) / 60;
             ss.style.strokeDashoffset = 440 - (440 * s) / 60;
 
-            hrs_dot.style.transform = `rotate(${h * 30}deg)`;
+            hrs_dot.style.transform = `rotate(${h * 15}deg)`;
             min_dot.style.transform = `rotate(${m * 6}deg)`;
             sec_dot.style.transform = `rotate(${s * 6}deg)`;
         })
