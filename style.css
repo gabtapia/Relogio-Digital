@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('Background/batman.jpg');
+    background-image: #2f363e;
 }
 
 #time {
